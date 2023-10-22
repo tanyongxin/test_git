@@ -11,7 +11,6 @@ public class Test {
         System.out.println("master 分支");
         B();
         B("B");
-        B();
         A();
     }
 
