@@ -10,6 +10,8 @@ public class Test {
     private static void master(){
         System.out.println("master 分支");
         B();
+        B("B");
+        B();
         A();
     }
 
@@ -20,4 +22,9 @@ public class Test {
     private static void B(){
         System.out.println("B 分支代码");
     }
+
+    private static void B(String s){
+        System.out.println("B 分支代码" + s);
+    }
+
 }
